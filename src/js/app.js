@@ -74,7 +74,7 @@ App = {
         return electionInstance.voters(App.account);
         }).then(function(hasVoted) {
           // Do not allow a user to vote
-        if(hasVoted) {
+        if(hasVoted) {  
       $('form').hide();
     }
 
